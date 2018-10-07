@@ -10,6 +10,7 @@
 </head>
 
 <body>
+    <h5>If you can beat hard mode, please let me know... I cant.</h5>
     <table>
         <tr>
             <td class="cells" id="0"></td>
@@ -32,12 +33,23 @@
         <div class="text"></div>
     </div>
 
-    <button onclick="startGame()">Replay</button>
-    <a id="easy" href="index.html">Easy Mode</a>
-    <a id="hard" href="hard.html">Hard Mode</a>
-    <div class="score">Wins: <span id="wins"></span> Losses: <span id="losses"></span> Ties: <span id="ties"></span></div>
-    <div id="SCRR">
-        <script src="Assets/JavaScript/game.js"></script>
+    <div class="container">
+        <div class="xyz">
+            <button id="replay" onclick="startGame()">Replay</button>
+        </div>
+        <br>
+        <div class="wxyz">
+            <a id="easy" href="index.html">Easy Mode</a>
+            <a id="hard" href="hard.html">Hard Mode</a>
+        </div>
+    </div>
+    <div class="container2">
+        <div class="score">Wins: <span id="wins"></span> Losses: <span id="losses"></span> Ties: <span id="ties"></span></div>
+    </div>
+
+    <p>ABOUT: This game is not an excersize in styling. In fact, very little time was spent on this display. Instead,
+        it was created to explore basic AI and test out an unbeatable algorithm. Enjoy the game!</p>
+    <script src="Assets/JavaScript/game.js"></script>
     </div>
 </body>
 

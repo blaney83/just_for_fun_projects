@@ -48,3 +48,67 @@ table tr td:last-child {
     color: white;
     font-size: 2em;
 }
+
+.container {
+    align-content: center;
+    position: absolute;
+    width: 100%;
+    top: 48%;
+    left: 0%;
+}
+
+.container2 {
+    align-content: center;
+    position: absolute;
+    width: 100%;
+    top: 55%;
+    font-weight: bolder;
+    text-align: center;
+    font-size: 22px;
+}
+
+.xyz {
+    align-content: center;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    top: -40px;
+    
+}
+
+.wxyz {
+    align-content: center;
+    text-align: center;
+    align-content: center;
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 0;
+    margin-left: 0;
+}
+
+h5 {
+    text-align: center;
+    width: 100%;
+
+}
+
+p {
+    width: 50%;
+    margin: 0% 25%;
+    text-align: center;
+    position: absolute;
+    top: 63%;
+
+}
+
+a {
+    border: solid;
+    border-width: 2px;
+    border-color: black;
+    color: blue;
+}
+
+h5, p, .score {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
